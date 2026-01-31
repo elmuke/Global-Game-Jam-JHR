@@ -975,7 +975,7 @@ namespace MoreMountains.CorgiEngine
 				_sideHitsStorage = new RaycastHit2D[NumberOfHorizontalRays];	
 			}
 
-            Debug.Log($"Horizontal rays {NumberOfHorizontalRays} with direction {raysDirection * (transform.right)} and horizontalRayLength {horizontalRayLength}"); //Muke
+            //Debug.Log($"Horizontal rays {NumberOfHorizontalRays} with direction {raysDirection * (transform.right)} and horizontalRayLength {horizontalRayLength}"); //Muke
 
             // we cast rays to the sides
             for (int i = 0; i < NumberOfHorizontalRays;i++)
@@ -991,7 +991,7 @@ namespace MoreMountains.CorgiEngine
 				{
                     _sideHitsStorage[i] = MMDebug.RayCast (rayOriginPoint,raysDirection*(transform.right),horizontalRayLength,PlatformMask & ~OneWayPlatformMask & ~MovingOneWayPlatformMask, MMColors.Indigo,Parameters.DrawRaycastsGizmos);			
 				}
-				Debug.Log($"{_sideHitsStorage[i].collider} with L {_sideHitsStorage[i].distance}");
+				// Debug.Log($"{_sideHitsStorage[i].collider} with L {_sideHitsStorage[i].distance}");
 
                 // if we've hit something
                 // if (_sideHitsStorage[i].distance > 0) // Muke substituted this with an equivalent>
@@ -1024,7 +1024,7 @@ namespace MoreMountains.CorgiEngine
 					// if the lateral slope angle is higher than our maximum slope angle, then we've hit a wall, and stop x movement accordingly
 					if (hitAngle > Parameters.MaximumSlopeAngle)
 					{
-						Debug.Log($"Hit wall at {Time.time}"); //Muke
+						//Debug.Log($"Hit wall at {Time.time}"); //Muke
 						if (raysDirection < 0)
 						{
 							State.IsCollidingLeft = true;
