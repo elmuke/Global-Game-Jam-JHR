@@ -29,6 +29,18 @@ namespace MoreMountains.CorgiEngine
 		[MMEnumCondition("Mode", (int)Modes.Direct)]
 		public string LoadingSceneName = "LoadingScreen";
 
+			protected virtual bool IsSceneInBuild(string sceneName)
+			{
+				if (string.IsNullOrEmpty(sceneName)) { return false; }
+				for (int i = 0; i < SceneManager.sceneCountInBuildSettings; i++)
+				{
+					var scenePath = UnityEngine.SceneManagement.SceneUtility.GetScenePathByBuildIndex(i);
+					var name = System.IO.Path.GetFileNameWithoutExtension(scenePath);
+					if (name == sceneName) { return true; }
+				}
+				return false;
+			}
+
 
 		/// <summary>
 		/// Loads the level specified in the inspector
@@ -37,7 +49,14 @@ namespace MoreMountains.CorgiEngine
 		{
 			if (Mode == Modes.Direct)
 			{
-				MMSceneLoadingManager.LoadScene(LevelName, LoadingSceneName);
+					if (IsSceneInBuild(LoadingSceneName))
+					{
+						MMSceneLoadingManager.LoadScene(LevelName, LoadingSceneName);
+					}
+					else
+					{
+						SceneManager.LoadScene(LevelName);
+					}
 			}
 			else
 			{
@@ -52,7 +71,15 @@ namespace MoreMountains.CorgiEngine
 		{
 			if (Mode == Modes.Direct)
 			{
-				MMSceneLoadingManager.LoadScene(SceneManager.GetActiveScene().name, LoadingSceneName);
+					var current = SceneManager.GetActiveScene().name;
+					if (IsSceneInBuild(LoadingSceneName))
+					{
+						MMSceneLoadingManager.LoadScene(current, LoadingSceneName);
+					}
+					else
+					{
+						SceneManager.LoadScene(current);
+					}
 			}
 			else
 			{
