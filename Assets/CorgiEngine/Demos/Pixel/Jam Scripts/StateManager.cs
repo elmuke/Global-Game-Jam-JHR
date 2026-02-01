@@ -4,8 +4,10 @@ using UnityEngine;
 public enum GameState
 {
     Normal,
+    PlacingMask,
     MaskOn,
 } 
+
 
 public static class StateManager 
 {

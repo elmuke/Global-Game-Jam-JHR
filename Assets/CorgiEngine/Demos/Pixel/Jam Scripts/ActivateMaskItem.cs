@@ -8,6 +8,6 @@ public class ActivateMaskItem : PickableItem
     /// </summary>
     protected override void Pick(GameObject picker)
     {
-        StateManager.SetState(GameState.MaskOn);
+        StateManager.SetState(GameState.PlacingMask);
     }
 }
