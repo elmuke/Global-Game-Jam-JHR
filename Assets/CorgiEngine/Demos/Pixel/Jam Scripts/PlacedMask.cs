@@ -34,10 +34,11 @@ public class PlacedMask : MonoBehaviour
     {
         _spriteRenderer.enabled = state == GameState.MaskOn;
         foreach (var c in _colliders)
-            c.enabled = true;
+            c.enabled = state == GameState.MaskOn;
     }
 
-    // Enter pressed. ExitMask is an input Action
+
+    // Enter pressed. ExitMask is an input Action.
     public void OnExitMask()
     {
         if (StateManager.GetState() == GameState.MaskOn)

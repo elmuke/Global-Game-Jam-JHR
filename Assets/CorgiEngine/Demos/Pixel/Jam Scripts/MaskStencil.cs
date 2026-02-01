@@ -32,8 +32,11 @@ public class MaskStencil : MonoBehaviour
     /// </summary>
     public void OnJump()
     {
-        StateManager.SetState(GameState.MaskOn);
-        _placeMaskMode = false;
+        if (StateManager.GetState() == GameState.PlacingMask)
+        {
+            StateManager.SetState(GameState.MaskOn);
+            _placeMaskMode = false;
+        }
     }
 
 
