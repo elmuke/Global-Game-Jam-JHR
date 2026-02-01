@@ -39,6 +39,8 @@ public class PlacedMask : MonoBehaviour
 
 
     // Enter pressed. ExitMask is an input Action.
+    // Deprecating this when I decided we would not ever exit mask mode anymore
+    /*
     public void OnExitMask()
     {
         if (StateManager.GetState() == GameState.MaskOn)
@@ -46,5 +48,6 @@ public class PlacedMask : MonoBehaviour
             StateManager.SetState(GameState.Normal);
         }
     }
+    */
 
 }
