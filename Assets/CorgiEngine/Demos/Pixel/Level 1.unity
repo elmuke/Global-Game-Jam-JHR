@@ -599,13 +599,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114100611450725344, guid: ace2d4bf56f98df4196ff81845a465d7,
         type: 3}
-      propertyPath: Fade
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114100611450725344, guid: ace2d4bf56f98df4196ff81845a465d7,
-        type: 3}
       propertyPath: LoadingSceneName
       value: Level 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114203520505689312, guid: ace2d4bf56f98df4196ff81845a465d7,
+        type: 3}
+      propertyPath: ButtonPressedFirstTime.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1481848189}
+    - target: {fileID: 114203520505689312, guid: ace2d4bf56f98df4196ff81845a465d7,
+        type: 3}
+      propertyPath: ButtonPressedFirstTime.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 114203520505689312, guid: ace2d4bf56f98df4196ff81845a465d7,
+        type: 3}
+      propertyPath: ButtonPressedFirstTime.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Level, MoreMountains.CorgiEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -811,6 +821,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 190956, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 490956, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1322,6 +1336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: MoreMountains.CorgiEngine::Level
   sceneAsset: {fileID: 102900000, guid: 9bd2f31a4297915439309201df04ce47, type: 3}
   sceneName: Level 0
+  levelManager: {fileID: 2122634800}
 --- !u!4 &1481848190
 Transform:
   m_ObjectHideFlags: 0
