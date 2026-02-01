@@ -37,7 +37,13 @@ public class PlacedMask : MonoBehaviour
             c.enabled = true;
     }
 
-
-
+    // Enter pressed. ExitMask is an input Action
+    public void OnExitMask()
+    {
+        if (StateManager.GetState() == GameState.MaskOn)
+        {
+            StateManager.SetState(GameState.Normal);
+        }
+    }
 
 }

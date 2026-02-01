@@ -116,7 +116,16 @@ namespace MoreMountains.CorgiEngine
                     ""name"": ""Jump"",
                     ""type"": ""Button"",
                     ""id"": ""314ace32-fb21-4bab-a569-ebe4e48f2102"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""ExitMask"",
+                    ""type"": ""Button"",
+                    ""id"": ""55a26555-1384-495f-8f9e-8ef884de00a9"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
@@ -242,7 +251,7 @@ namespace MoreMountains.CorgiEngine
                     ""name"": ""Pause"",
                     ""type"": ""Button"",
                     ""id"": ""c01ffcc5-adff-4aa3-bb8d-e0139087e5ed"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
@@ -370,6 +379,28 @@ namespace MoreMountains.CorgiEngine
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
                     ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5fd69a00-15e6-47c8-bca8-817111002cc8"",
+                    ""path"": ""<Keyboard>/enter"",
+                    ""interactions"": ""Press(behavior=2)"",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""ExitMask"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e057b28e-9899-41d6-a22c-f5c0c6a52149"",
+                    ""path"": ""<Gamepad>/buttonNorth"",
+                    ""interactions"": ""Press(behavior=2)"",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad;Keyboard"",
+                    ""action"": ""ExitMask"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -791,6 +822,7 @@ namespace MoreMountains.CorgiEngine
             m_PlayerControls_PrimaryMovement = m_PlayerControls.FindAction("PrimaryMovement", throwIfNotFound: true);
             m_PlayerControls_SecondaryMovement = m_PlayerControls.FindAction("SecondaryMovement", throwIfNotFound: true);
             m_PlayerControls_Jump = m_PlayerControls.FindAction("Jump", throwIfNotFound: true);
+            m_PlayerControls_ExitMask = m_PlayerControls.FindAction("ExitMask", throwIfNotFound: true);
             m_PlayerControls_Swim = m_PlayerControls.FindAction("Swim", throwIfNotFound: true);
             m_PlayerControls_Glide = m_PlayerControls.FindAction("Glide", throwIfNotFound: true);
             m_PlayerControls_Jetpack = m_PlayerControls.FindAction("Jetpack", throwIfNotFound: true);
@@ -892,6 +924,7 @@ namespace MoreMountains.CorgiEngine
         private readonly InputAction m_PlayerControls_PrimaryMovement;
         private readonly InputAction m_PlayerControls_SecondaryMovement;
         private readonly InputAction m_PlayerControls_Jump;
+        private readonly InputAction m_PlayerControls_ExitMask;
         private readonly InputAction m_PlayerControls_Swim;
         private readonly InputAction m_PlayerControls_Glide;
         private readonly InputAction m_PlayerControls_Jetpack;
@@ -933,6 +966,10 @@ namespace MoreMountains.CorgiEngine
             /// Provides access to the underlying input action "PlayerControls/Jump".
             /// </summary>
             public InputAction @Jump => m_Wrapper.m_PlayerControls_Jump;
+            /// <summary>
+            /// Provides access to the underlying input action "PlayerControls/ExitMask".
+            /// </summary>
+            public InputAction @ExitMask => m_Wrapper.m_PlayerControls_ExitMask;
             /// <summary>
             /// Provides access to the underlying input action "PlayerControls/Swim".
             /// </summary>
@@ -1040,6 +1077,9 @@ namespace MoreMountains.CorgiEngine
                 @Jump.started += instance.OnJump;
                 @Jump.performed += instance.OnJump;
                 @Jump.canceled += instance.OnJump;
+                @ExitMask.started += instance.OnExitMask;
+                @ExitMask.performed += instance.OnExitMask;
+                @ExitMask.canceled += instance.OnExitMask;
                 @Swim.started += instance.OnSwim;
                 @Swim.performed += instance.OnSwim;
                 @Swim.canceled += instance.OnSwim;
@@ -1114,6 +1154,9 @@ namespace MoreMountains.CorgiEngine
                 @Jump.started -= instance.OnJump;
                 @Jump.performed -= instance.OnJump;
                 @Jump.canceled -= instance.OnJump;
+                @ExitMask.started -= instance.OnExitMask;
+                @ExitMask.performed -= instance.OnExitMask;
+                @ExitMask.canceled -= instance.OnExitMask;
                 @Swim.started -= instance.OnSwim;
                 @Swim.performed -= instance.OnSwim;
                 @Swim.canceled -= instance.OnSwim;
@@ -1255,6 +1298,13 @@ namespace MoreMountains.CorgiEngine
             /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
             /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
             void OnJump(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "ExitMask" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnExitMask(InputAction.CallbackContext context);
             /// <summary>
             /// Method invoked when associated input action "Swim" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
             /// </summary>

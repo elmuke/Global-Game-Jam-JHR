@@ -22,6 +22,8 @@ public static class StateManager
         _state = state;
         StateChanged?.Invoke(state);
     }
+
+    public static GameState GetState() => _state;
 }
 
 
