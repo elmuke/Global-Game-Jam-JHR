@@ -24,5 +24,8 @@ public class PlaceMaskMode : MonoBehaviour
     {
         Debug.Log("Entering Mask Placement mode");
         //do something
+        // Enable <Level 0 Mask Stencil> and make it move
+        // and finish with the following call:
+        // StateManager.SetState(GameState.MaskOn);
     }
 }
