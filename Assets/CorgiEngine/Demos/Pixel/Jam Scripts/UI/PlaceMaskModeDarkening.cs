@@ -1,7 +1,5 @@
-using Codice.Client.Common.GameUI;
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 
 /// <summary>
 /// Causes the screen to darken while the mask is being placed.

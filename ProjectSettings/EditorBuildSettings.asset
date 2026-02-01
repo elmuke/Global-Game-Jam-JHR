@@ -39,6 +39,9 @@ EditorBuildSettings:
     path: Assets/CorgiEngine/Demos/Corgi2D/Lava.unity
     guid: 021858c77d85c1e4a944245dd9e0cf08
   - enabled: 1
+    path: Assets/CorgiEngine/Demos/Pixel/Level 0.unity
+    guid: 9bd2f31a4297915439309201df04ce47
+  - enabled: 1
     path: Assets/CorgiEngine/Demos/Pixel/PixelLevel.unity
     guid: 2380b3a9640179c4791abe8cdec4ea5c
   - enabled: 0
