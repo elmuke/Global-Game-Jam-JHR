@@ -37,6 +37,8 @@ public class PlaceMaskModeDarkening : MonoBehaviour
             _sprite.enabled = true;
             StartCoroutine(FadeIn());
         }
+        //Deprecating:
+        /*
         if (gameState == GameState.MaskOn)
         {
             _sprite.enabled = true;
@@ -44,6 +46,10 @@ public class PlaceMaskModeDarkening : MonoBehaviour
         }
         else
             _maskIsOn = false;
+        */
+        // New version:
+        if (gameState == GameState.MaskOn)
+            _sprite.enabled = false;
     }
 
     private IEnumerator FadeIn()
