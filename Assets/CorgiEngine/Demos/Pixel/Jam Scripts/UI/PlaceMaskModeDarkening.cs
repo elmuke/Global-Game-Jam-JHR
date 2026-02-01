@@ -9,9 +9,12 @@ public class PlaceMaskModeDarkening : MonoBehaviour
 {
     public float fadeDuration = 0.5f;
     public float targetAlpha = 0.75f;
+    public float pulseFrequency = 0.5f;
+    public float pulseIntensity = 0.2f;
 
     private SpriteRenderer _sprite;
     private float fadeStartTime = float.NegativeInfinity;
+    private bool _maskIsOn = false;
 
     void Start()
     {
@@ -27,13 +30,20 @@ public class PlaceMaskModeDarkening : MonoBehaviour
 
     private void OnGameStateChanged(GameState gameState)
     {
+        if (gameState == GameState.Normal)
+            _sprite.enabled = false;
         if (gameState == GameState.PlacingMask)
         {
             _sprite.enabled = true;
             StartCoroutine(FadeIn());
         }
+        if (gameState == GameState.MaskOn)
+        {
+            _sprite.enabled = true;
+            _maskIsOn = true;
+        }
         else
-            _sprite.enabled = false;
+            _maskIsOn = false;
     }
 
     private IEnumerator FadeIn()
@@ -51,4 +61,16 @@ public class PlaceMaskModeDarkening : MonoBehaviour
                 yield break;
         }
     }
+
+    private void Update()
+    {
+        if (_maskIsOn)
+        {
+            //Pulse
+            var spriteColor = _sprite.color;
+            spriteColor.a = (Mathf.Sin(Time.time * pulseFrequency) + 1) * 0.5f * pulseIntensity;
+            _sprite.color = spriteColor;
+        }
+    }
+
 }

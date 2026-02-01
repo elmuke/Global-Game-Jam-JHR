@@ -198,6 +198,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: MoreMountains.CorgiEngine::PlaceMaskModeDarkening
   fadeDuration: 0.5
   targetAlpha: 0.75
+  pulseFrequency: 5
+  pulseIntensity: 0.15
 --- !u!212 &51541803
 SpriteRenderer:
   serializedVersion: 2
