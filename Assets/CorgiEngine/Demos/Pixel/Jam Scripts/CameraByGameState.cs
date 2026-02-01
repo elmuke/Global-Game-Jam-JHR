@@ -1,7 +1,9 @@
 using UnityEngine;
 using MoreMountains.CorgiEngine;
 
-
+/// <summary>
+/// Modifies the existing camera behavior based on game states
+/// </summary>
 public class CameraByGameState : MonoBehaviour
 {
     private CameraController _cameraController;

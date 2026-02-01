@@ -8,7 +8,9 @@ public enum GameState
     MaskOn,
 } 
 
-
+/// <summary>
+/// Keeps track of the state of the Game.
+/// </summary>
 public static class StateManager 
 {
     private static GameState _state;
