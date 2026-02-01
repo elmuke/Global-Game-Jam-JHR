@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: 00f49fb0527a9304280a778016548070
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1198831117193266360
+    second: Mask Help_0
+  - first:
+      213: 4634386437531276185
+    second: Mask Help_1
+  - first:
+      213: 5679038100243940990
+    second: Mask Help_2
+  - first:
+      213: -5104128361285361371
+    second: Mask Help_3
+  - first:
+      213: -4730062733378843635
+    second: Mask Help_4
+  - first:
+      213: 3979800906972062580
+    second: Mask Help_5
+  - first:
+      213: 2960163909831082192
+    second: Mask Help_6
+  - first:
+      213: 805039996924779034
+    second: Mask Help_7
+  - first:
+      213: -4370250644173132651
+    second: Mask Help_8
+  - first:
+      213: -2853708362007371697
+    second: Mask Help_9
+  - first:
+      213: 1959941564750106228
+    second: Mask Help_10
+  - first:
+      213: 3191063238457081623
+    second: Mask Help_11
+  - first:
+      213: 7006326603577446283
+    second: Mask Help_12
+  - first:
+      213: -8006822409223266970
+    second: Mask Help_13
+  - first:
+      213: 5537359643684549914
+    second: Mask Help_14
+  - first:
+      213: 8381998144131403576
+    second: Mask Help_15
+  - first:
+      213: -1052434841307174317
+    second: Mask Help_16
+  - first:
+      213: 3504255623266301577
+    second: Mask Help_17
+  - first:
+      213: 2716512703402776664
+    second: Mask Help_18
+  - first:
+      213: -4318115137585476161
+    second: Mask Help_19
+  - first:
+      213: 3726712862714978228
+    second: Mask Help_20
+  - first:
+      213: 1601903612932143813
+    second: Mask Help_21
+  - first:
+      213: -5576479712978976571
+    second: Mask Help_22
+  - first:
+      213: 7084007899462337726
+    second: Mask Help_23
+  - first:
+      213: -3117677025793692392
+    second: Mask Help_24
+  - first:
+      213: 4954782018550929277
+    second: Mask Help_25
+  - first:
+      213: 1125452357087581006
+    second: Mask Help_26
+  - first:
+      213: -7660598179961039838
+    second: Mask Help_27
+  - first:
+      213: -2856542062195641218
+    second: Mask Help_28
+  - first:
+      213: 7318981744168472907
+    second: Mask Help_29
+  - first:
+      213: 5425133509304191777
+    second: Mask Help_30
+  - first:
+      213: 7565275021296556782
+    second: Mask Help_31
+  - first:
+      213: -7365948481761570158
+    second: Mask Help_32
+  - first:
+      213: -1770097792981080356
+    second: Mask Help_33
+  - first:
+      213: -4100187486414610110
+    second: Mask Help_34
+  - first:
+      213: 5536216505102528285
+    second: Mask Help_35
+  - first:
+      213: -1429944652051430827
+    second: Mask Help_36
+  - first:
+      213: -7628411429902763577
+    second: Mask Help_37
+  - first:
+      213: 8527435754067908576
+    second: Mask Help_38
+  - first:
+      213: 5099954593785258139
+    second: Mask Help_39
+  - first:
+      213: 8117444717922200098
+    second: Mask Help_40
+  - first:
+      213: 6051422603250201227
+    second: Mask Help_41
+  - first:
+      213: -7522200608759910769
+    second: Mask Help_42
+  - first:
+      213: -5475640498541693615
+    second: Mask Help_43
+  - first:
+      213: -1816249333443930299
+    second: Mask Help_44
+  - first:
+      213: -6033337491055399708
+    second: Mask Help_45
+  - first:
+      213: -5451763375873947394
+    second: Mask Help_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mask Help_0
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 421
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84bb20a5375ec5fe0800000000000000
+      internalID: -1198831117193266360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_1
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 421
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99390f039e5a05040800000000000000
+      internalID: 4634386437531276185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_2
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 421
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7603f6301fffce40800000000000000
+      internalID: 5679038100243940990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_3
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 421
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521e6995c4e7a29b0800000000000000
+      internalID: -5104128361285361371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 421
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c04a341017b5eb0800000000000000
+      internalID: -4730062733378843635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_5
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 419
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473e8d8c6d71b3730800000000000000
+      internalID: 3979800906972062580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 421
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0c962746d941920800000000000000
+      internalID: 2960163909831082192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_7
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 419
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1adea6ac931c2b00800000000000000
+      internalID: 805039996924779034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_8
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 421
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c63a69130c953c0800000000000000
+      internalID: -4370250644173132651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_9
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 421
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f402df54d579568d0800000000000000
+      internalID: -2853708362007371697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_10
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 421
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e047b087c133b10800000000000000
+      internalID: 1959941564750106228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 421
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fba00cb1fe84c20800000000000000
+      internalID: 3191063238457081623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_12
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 421
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f4a92cce87b3160800000000000000
+      internalID: 7006326603577446283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_13
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 421
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d1c96d07d02e090800000000000000
+      internalID: -8006822409223266970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_14
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 421
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15b66bf147a8dc40800000000000000
+      internalID: 5537359643684549914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_15
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 421
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f8fe007e6d25470800000000000000
+      internalID: 8381998144131403576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_16
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 421
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a24ae76100561f0800000000000000
+      internalID: -1052434841307174317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_17
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 421
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986f3fa4ced91a030800000000000000
+      internalID: 3504255623266301577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_18
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 419
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858982a39edf2b520800000000000000
+      internalID: 2716512703402776664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_19
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 421
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd0bf42929f214c0800000000000000
+      internalID: -4318115137585476161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_20
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 421
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf510a8a91f7b330800000000000000
+      internalID: 3726712862714978228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_21
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 421
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca3c3549da1b3610800000000000000
+      internalID: 1601903612932143813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_22
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 421
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c047ba1f3d5c92b0800000000000000
+      internalID: -5576479712978976571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_23
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 405
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb48381e6a37f4260800000000000000
+      internalID: 7084007899462337726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_24
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 405
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81dab216349cbb4d0800000000000000
+      internalID: -3117677025793692392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_25
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 405
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77983b8efbe2c440800000000000000
+      internalID: 4954782018550929277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_26
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 405
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43d4d3b4f86e9f00800000000000000
+      internalID: 1125452357087581006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_27
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 405
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2241b6cfa8610b590800000000000000
+      internalID: -7660598179961039838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_28
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 405
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74fdd801268b58d0800000000000000
+      internalID: -2856542062195641218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_29
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 405
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b411bb26e1f329560800000000000000
+      internalID: 7318981744168472907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_30
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 405
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b0521ee22f94b40800000000000000
+      internalID: 5425133509304191777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_31
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 405
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea5480ac814df860800000000000000
+      internalID: 7565275021296556782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_32
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 405
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29216ced1e4e6c990800000000000000
+      internalID: -7365948481761570158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_33
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 403
+        width: 42
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6e8a78f695f67e0800000000000000
+      internalID: -1770097792981080356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_34
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 405
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24161cf64353917c0800000000000000
+      internalID: -4100187486414610110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_35
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 405
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f6a4a449794dc40800000000000000
+      internalID: 5536216505102528285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_36
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 405
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55241064ae0d72ce0800000000000000
+      internalID: -1429944652051430827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_37
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 403
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9bd18b830722690800000000000000
+      internalID: -7628411429902763577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_38
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 405
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7de2653a9875670800000000000000
+      internalID: 8527435754067908576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_39
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 405
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90213daeada6c640800000000000000
+      internalID: 5099954593785258139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_40
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 405
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22aaf9f76f4f6a070800000000000000
+      internalID: 8117444717922200098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_41
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 405
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b827f7cbbc8faf350800000000000000
+      internalID: 6051422603250201227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_42
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 403
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e63a19666cb9790800000000000000
+      internalID: -7522200608759910769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_43
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 405
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155fdae4afd9204b0800000000000000
+      internalID: -5475640498541693615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_44
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 403
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547d888aad26bc6e0800000000000000
+      internalID: -1816249333443930299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_45
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 405
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eca8939487454ca0800000000000000
+      internalID: -6033337491055399708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask Help_46
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 405
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef88c8528127754b0800000000000000
+      internalID: -5451763375873947394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mask Help_0: -1198831117193266360
+      Mask Help_1: 4634386437531276185
+      Mask Help_10: 1959941564750106228
+      Mask Help_11: 3191063238457081623
+      Mask Help_12: 7006326603577446283
+      Mask Help_13: -8006822409223266970
+      Mask Help_14: 5537359643684549914
+      Mask Help_15: 8381998144131403576
+      Mask Help_16: -1052434841307174317
+      Mask Help_17: 3504255623266301577
+      Mask Help_18: 2716512703402776664
+      Mask Help_19: -4318115137585476161
+      Mask Help_2: 5679038100243940990
+      Mask Help_20: 3726712862714978228
+      Mask Help_21: 1601903612932143813
+      Mask Help_22: -5576479712978976571
+      Mask Help_23: 7084007899462337726
+      Mask Help_24: -3117677025793692392
+      Mask Help_25: 4954782018550929277
+      Mask Help_26: 1125452357087581006
+      Mask Help_27: -7660598179961039838
+      Mask Help_28: -2856542062195641218
+      Mask Help_29: 7318981744168472907
+      Mask Help_3: -5104128361285361371
+      Mask Help_30: 5425133509304191777
+      Mask Help_31: 7565275021296556782
+      Mask Help_32: -7365948481761570158
+      Mask Help_33: -1770097792981080356
+      Mask Help_34: -4100187486414610110
+      Mask Help_35: 5536216505102528285
+      Mask Help_36: -1429944652051430827
+      Mask Help_37: -7628411429902763577
+      Mask Help_38: 8527435754067908576
+      Mask Help_39: 5099954593785258139
+      Mask Help_4: -4730062733378843635
+      Mask Help_40: 8117444717922200098
+      Mask Help_41: 6051422603250201227
+      Mask Help_42: -7522200608759910769
+      Mask Help_43: -5475640498541693615
+      Mask Help_44: -1816249333443930299
+      Mask Help_45: -6033337491055399708
+      Mask Help_46: -5451763375873947394
+      Mask Help_5: 3979800906972062580
+      Mask Help_6: 2960163909831082192
+      Mask Help_7: 805039996924779034
+      Mask Help_8: -4370250644173132651
+      Mask Help_9: -2853708362007371697
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
